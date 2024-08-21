@@ -1,13 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary:	#ff9a00;
+    --primary: #355EFC;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
     --dark: #011A41;
 }
-
-
 
 .back-to-top {
     position: fixed;
@@ -122,7 +120,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: 	#ff9a00
+    color: var(--primary);
 }
 
 @media (max-width: 991.98px) {
@@ -267,8 +265,8 @@ h6,
 }
 
 .service .nav .nav-link.active {
-    border-color:	#ff9a00 !important;
-    background: 	#ff9a00;
+    border-color: var(--primary) !important;
+    background: var(--primary);
 }
 
 .service .nav .nav-link.active h5 {
@@ -584,12 +582,12 @@ h6,
 }
 
 .service-11 .bg-success-gradiant {
-    background: #ff9a00;
-    background: -webkit-linear-gradient(legacy-direction(to right), #ff9a00 0%,#ff7400 100%);
+    background: #355EFC;
+    /* background: -webkit-linear-gradient(legacy-direction(to right), #ff9a00 0%,#ff7400 100%);
     background: -webkit-gradient(linear, left top, right top, from(#ff9a00), to(#ff7400));
     background: -webkit-linear-gradient(left, #ff9a00 0%,#ff7400 100%);
     background: -o-linear-gradient(left, #ff9a00 0%,#ff7400 100%);
-    background: linear-gradient(to right, #ff9a00 0%,#ff7400 100%);
+    background: linear-gradient(to right, #ff9a00 0%,#ff7400 100%); */
 }
 
 .service-11 .icon-round {
@@ -598,24 +596,21 @@ h6,
 }
 
 .service-11 .btn-success-gradiant {
-		background: #ff9a00;
-    background: -webkit-linear-gradient(legacy-direction(to right), #ff9a00 0%,#ff7400 100%);
+		background: #355EFC;
+    /* background: -webkit-linear-gradient(legacy-direction(to right), #ff9a00 0%,#ff7400 100%);
     background: -webkit-gradient(linear, left top, right top, from(#ff9a00), to(#ff7400));
     background: -webkit-linear-gradient(left, #ff9a00 0%,#ff7400 100%);
     background: -o-linear-gradient(left, #ff9a00 0%,#ff7400 100%);
-    background: linear-gradient(to right, #ff9a00 0%,#ff7400 100%);
+    background: linear-gradient(to right, #ff9a00 0%,#ff7400 100%); */
 }
-
-.service-11 .btn-success-gradiant:hover {
-		background:#ff7400;
-    background: -webkit-linear-gradient(legacy-direction(to right),#ff7400 0%, #ff9a00 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#ff7400), to(#ff9a00));
-    background: -webkit-linear-gradient(left,#ff7400 0%, #ff9a00 100%);
-    background: -o-linear-gradient(left,#ff7400 0%, #ff9a00 100%);
-    background: linear-gradient(to right,#ff7400 0%, #ff9a00 100%);	
-}
-
 .service-11 .btn-md {
     padding: 15px 45px;
     font-size: 16px;
+}
+.card{
+transition: box-shadow 0.3s ease-in-out !important;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)!important;}
+.card:hover{
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) !important ;
 }
